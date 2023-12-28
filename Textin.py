@@ -192,7 +192,7 @@ if 'username' in st.experimental_get_query_params():
     transcript_url = "https://api.assemblyai.com/v2/transcript"
 
     # AssemblyAI API key
-    API_KEY = "a68e96a106c14f5ca9e697c1f4d90d11"
+    API_KEY = "YOUR API KEY" #Enter the api key that you get from assembly ai
    
     tab1, tab2 , tab3= st.tabs(["AUDIO TO TEXT AND VIDEO TO TEXT", "MY TRANSCRIPTIONS","ABOUT US"])
 
